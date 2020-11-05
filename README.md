@@ -20,6 +20,6 @@ Then your browser will display the text "Visit W3Schools.com!" as a link you can
 
 Create an `<a>` element that links to `https://freecatphotoapp.com` and has 'cat photos' as its inner text.
 
-- Your `<a>` element should have the innner text as "cat photos"
+- Your `<a>` element should have the inner text as "cat photos"
 - Your `<a>` element should have href attribute that links to `https://freecatphotoapp.com`
 - Your `<a>` element should have a closing tag
