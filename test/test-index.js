@@ -15,9 +15,15 @@ describe('index.html', () => {
         .then(done, done);
     });
 
-    describe('heading exist', () => {
-        it('h1 exists', () => {
-            expect(document.querySelector('h1')).to.exist
+    describe('Create an a(anchor) tag.', () => {
+        it('a (anchor) tag should exist', () => {
+            expect(document.querySelector('a')).to.exist
         })
-    })
+        it('a (anchor) tag should have the href attribute that points to https://freecatphotoapp.com link', () => {
+            expect(document.querySelector('a')).to.have.attribute('href', 'https://freecatphotoapp.com')
+        })
+        it("a (anchor) tag should have the text 'cat photos'", () => {
+            expect(document.querySelector('a')).to.have.text('cat photos')
+        })
+    }) 
 })
